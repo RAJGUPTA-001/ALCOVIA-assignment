@@ -16,6 +16,8 @@ const daily_logs = sequelize.define("daily_logs", {
     type: DataTypes.INTEGER, // percentage or score
     allowNull: false,
   }
+}, {
+   timestamps: false
 });
 
 // Associations
