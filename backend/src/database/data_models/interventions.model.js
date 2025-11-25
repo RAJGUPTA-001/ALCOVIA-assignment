@@ -17,7 +17,9 @@ const interventions = sequelize.define("interventions", {
   },
   description: {
     type: DataTypes.TEXT,
-  },
+  }}
+, {
+   timestamps: false
 });
 
 // Associations
