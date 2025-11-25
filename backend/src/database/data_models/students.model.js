@@ -21,6 +21,8 @@ const students = sequelize.define("students", {
     allowNull: false,
     defaultValue: "active",
   },
+}, {
+   timestamps: false
 });
 
 export default students;
