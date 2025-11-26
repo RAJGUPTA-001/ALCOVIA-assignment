@@ -2,7 +2,7 @@ import io from 'socket.io-client';
 // import dotenv from 'dotenv';
 // dotenv.config();
 
-const BACKEND_URL = process.env.BACKEND_URL||'http://localhost:3000'; // Change to your backend URL
+const BACKEND_URL = 'https://alcovia-assignment.onrender.com'; // Change to your backend URL
 
 class SocketService {
   socket: any = null;

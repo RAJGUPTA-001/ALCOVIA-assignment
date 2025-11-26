@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Change this to your deployed backend URL
-const BACKEND_URL = process.env.BACKEND_URL||'http://localhost:3000'; // Local development
+const BACKEND_URL = 'https://alcovia-assignment.onrender.com'; // Local development
 // const API_URL = 'https://your-backend.onrender.com'; // Production
 
 const api = axios.create({
